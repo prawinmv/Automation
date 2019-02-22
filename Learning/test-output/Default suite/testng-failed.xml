@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.web.app.Webtable">
+      <class name="com.web.app.Yahoo">
         <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
           <include name="homePage"/>
+          <include name="createAcc"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.web.app.Webtable -->
+      </class> <!-- com.web.app.Yahoo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
