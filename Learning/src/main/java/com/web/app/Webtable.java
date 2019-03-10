@@ -27,29 +27,29 @@ public void homePage() {
  WebDriver driver = new ChromeDriver();
 	driver.manage().window().maximize();
 	
-/*	driver.get("http://demo.guru99.com/test/web-table-element.php");	
+driver.get("http://demo.guru99.com/test/web-table-element.php");	
 	String pageTitle1=driver.getTitle();
 	System.out.println(pageTitle1);
 	WebElement btable = driver.findElement(By.tagName("table"));	
 	List<WebElement> row = btable.findElements(By.tagName("tr"));
 	System.out.println("Total no. of rows"+ row.size());	
 	for (int i=0; i< row.size();i++) {
-		List<WebElement> col = row.get(i).findElements(By.tagName("th"));		
+		List<WebElement> col = row.get(i).findElements(By.tagName("td"));		
 		for (int j=0; j< col.size();j++) {			
 			String value = col.get(j).getText();
-			//if(value.contains("Bank")) {
+			if(value.contains("66")) {
 			System.out.println("Text value: "+value + " & Row no.:="+ i +" & Col.no:="+j);
-		//}
 		}
-	}*/
+		}
+	}
 	
 	
-	driver.get("http://demo.automationtesting.in/WebTable.html");
+	/*driver.get("http://demo.automationtesting.in/WebTable.html");
 	
 	//List<WebElement> value = driver.findElements(By.cssSelector("body > section > div:nth-child(1) > div > div.col-xs-12.myGrid.ui-grid.ng-isolate-scope.grid1550127670491"));
 	List<WebElement> value = driver.findElements(By.xpath("//div[@class='grid-cell-contents ng-binding ng-scope']"));
 	
-	System.out.println(value.size());
+	System.out.println(value.size());*/
 	
 	
 	
